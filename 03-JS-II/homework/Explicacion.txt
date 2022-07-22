@@ -1,0 +1,13 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos 
+como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente 
+cualquier agujero en tu comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+El bucle for sirve para iterar las veces que queramos. 
+Su estructura es la siguiente for (inicio, fin, incremenento) { codigo a ejecutar }
+
+El operador logico && sirve para comparar, para que sea true ambas condiciones tiene que ser verdaderas
+El opeador logico || solo es true si alguna de las dos condiciones es verdaderas
+El not ! sirve para invertir un booleano, si un valor es !false === true  y  !true === false
