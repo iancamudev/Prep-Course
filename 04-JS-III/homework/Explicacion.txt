@@ -1,0 +1,14 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Arrays
+
+Los arrays son tipos de datos no nativos que pueden contener tipos de datos como numbers, strings, booleans, undefined, null, otros arrays, etc. 
+Pueden contener tantos elementos como querramos, su indice empieza a contar desde el 0, es decir si un array es [1, 2, 3] el elemento 1 esta en el indice 0. 
+  Para acceder a los elementos por su indice tenemos que indicarselo de la siguiente manera 
+  array[indice] = elemento que haya en dicho indice
+Tiene diferentes metodos como: 
+.length nos dice el tama;o del array, es decir cuantos elementos Tiene
+.push() agrega un elemento al final del array
+.pop() elimina el ultimo elemento del array y lo devuelve, si quisieramos lo podriamos guardar en una variable de la siguiente manera var elemento = array.pop()
+.unshift() agrega un elemento al principio del array
+.shift() elimina el primer elemento del array
